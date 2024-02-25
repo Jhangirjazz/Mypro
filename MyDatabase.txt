@@ -1,0 +1,10 @@
+Create DATABASE Sound;
+
+create TABLE SignUp(
+ID int PRIMARY KEY AUTO_INCREMENT,
+Username varchar(30),
+Email varchar(40),
+`Password` varchar(40),
+Roles varchar(40),
+CreateAt varchar(40)    
+)
